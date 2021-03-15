@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="layout">
+        <header class="header">
+            <div class="container header_container">
+                <div class="header_topper">
+                    <div class="header_logo">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="header_link">
+                        <a href="#">Веб-версия</a>
+                    </div>
+                </div>
+                <div class="header_bg">
+                    <div class="header_bg_inner">
+                        <div class="header_bg_img">
+                        <img src="img/header-bg.png" alt="header-bg">
+                        </div>
+                        <div class="header_bg_circle">................................</div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container main_container">
+                <div class="main_payment">
+                    <div class="main_payment_inner">
+                        <h3>Ваш платеж прошел успешно!</h3>
+                        <p>Это значит, что вы стали на шаг ближе к идеальному английскому!</p>
+                        <table class="main_payment_table">
+                            <tr>
+                                <td class="main_payment_table_title">Сумма:</td>
+                                <td>{{ params.SUMM }}</td>
+                            </tr>
+                            <tr>
+                                <td class="main_payment_table_title">Назначение:</td>
+                                <td>{{ params.DESCRIPTION }}</td>
+                            </tr>
+                        </table>
+                        <div class="main_payment_button">
+                            <a href="#">Забронировать урок</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="main_social">
+                    <div class="main_social_inner">
+                        <div class="main_social_text">
+                            <h3>Бесплатный урок за честный отзыв</h3>
+                            <p>Хотите получить бесплатное занятие для своего ребенка?<br> 
+                                Нет ничего проще! Поделитесь мнением об изучении английского<br> 
+                                в нашей школе, отправьте скрин с отзывом нашему администратору<br> 
+                                и получите бонус в виде бесплатного урока – он будет ждать вас<br> 
+                                в личном кабинете. Выберете один из сервисов,<br> 
+                                на котором хотите оставить отзыв </p>
+                        </div>
+                        <div class="main_social_buttons">
+                            <div class="main_social_buttons_item">
+                                <a href="#">Faccebook</a>
+                            </div>
+                            <div class="main_social_buttons_item">
+                                <a href="#">Truspilot.com</a>
+                            </div>
+                            <div class="main_social_buttons_item">
+                                <a href="#">Otzovic.com</a>
+                            </div>
+                            <div class="main_social_buttons_item">
+                                <a href="#">Zoon.ru</a>
+                            </div>
+                            <div class="main_social_buttons_item">
+                                <a href="#">Yell.ru</a>
+                            </div>
+                            <div class="main_social_buttons_item">
+                                <a href="#">Подробнее о скидках</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
